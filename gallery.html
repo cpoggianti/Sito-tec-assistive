@@ -3,8 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Capraia Insieme - Panoramic Gallery</title>
-		<link rel="icon" href="img/favicon.ico"/>
+		<link rel="icon" type="image/png" href="img/capraia.png">
 		<!--JS-->
+		<script src="js/panoramicGallery.js" charset="utf-8"></script>
+		<script src="js/dynamic.js" charset="utf-8"></script>
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!--LIBRARIES-->
@@ -13,12 +15,16 @@
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
 	</head>
 	<body>
+		<div id="menu"><a href="index.html">HOME</a></div>
 		<h1>Capraia panoramica</h1>
 		<div id="photoGallery">
-			<img id="panoramic" class="col2" src="img/Panoramiche/Dattero.gif">
-			<img id="panoramic" class="col2" src="img/Panoramiche/Castello.gif">
-			<img id="panoramic" class="col2" src="img/Panoramiche/Dattero.gif">
-			<img id="panoramic" class="col2" src="img/Panoramiche/Castello.gif">
+			<img id="pan00" class="anteprima" src="img/gingerbread.png">
+			<img id="pan01" class="anteprima" src="img/gingerbread.png">
+			<img id="pan02" class="anteprima" src="img/gingerbread.png">
+			<img id="pan03" class="anteprima" src="img/gingerbread.png">
 		<div>
+		<div id="fs_panorama">
+			<!-- qui comparirà l'iframe -->
+		</div>
 	</body>
 </html>
